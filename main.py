@@ -1,12 +1,7 @@
+import numpy as np
 num = int(input("Enter the number: "))
 
-numArray = [int(i) for i in str(num)]
-
-sumOfPower = 0
-for n in numArray:
-    sumOfPower += pow(n, len(numArray))
-
-if sumOfPower == num:
+if sum(np.power([int(i) for i in str(num)], len(str(num)))) == num:
     print("This num is narcissistic.")
 else:
     print("This num is not narcissistic.")
