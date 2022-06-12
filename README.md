@@ -1,6 +1,6 @@
 <h1 align="center">Narcissistic Number</h1>
 
-## Explaination
+## Explanation
 
 Enter a number it will tell if its narcissistic number or not.<br /><br />
 Takes an string then constructs an int array<br />
